@@ -11,4 +11,4 @@ You can install cx_Freeze with this python command line:
 python -m pip install cx_Freeze --upgrade
 ```
 
-When you're done, simply run the "setup.bat" file to build the project.
+When you're done, simply run the "build.bat" file to build the project.
