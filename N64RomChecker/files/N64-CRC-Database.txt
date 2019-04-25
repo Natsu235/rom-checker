@@ -1,0 +1,36 @@
+N64 CRC Database
+Created by Natsu235
+-----------------------------
+
+
+ROM NAME								ROM CRC
+
+Super Mario 64 (U)							63 5A 2B FF 8B 02 23 26
+Super Mario 64 (E)							A0 3C F0 36 BC C1 C5 D2
+Paper Mario (U)								65 EE E5 3A ED 7D 73 3C
+Paper Mario (E)								19 AB 29 AF C7 1B CD 28
+Mario Kart 64 (U)							3E 50 55 B6 2E 92 DA 52
+Super Smash Bros. (U)							91 6B 8B 5B 78 0B 85 A4
+Yoshi's Story (U)							23 37 D8 E8 6B 8E 7C EC
+Star Fox 64 (U)								A7 D0 15 F8 22 89 AA 43
+Legend of Zelda - Ocarina of Time (U)					EC 70 11 B7 76 16 D7 2B
+Legend of Zelda - Ocarina of Time (U) (v1.1)				D4 3D A8 1F 02 1E 1E 19
+Legend of Zelda - Ocarina of Time (U) (v1.2)				69 3B A2 AE B7 F1 4E 9F
+Legend of Zelda - Ocarina of Time (U) (GameCube Version)		F3 DD 35 BA 41 52 E0 75
+Legend of Zelda - Ocarina of Time (E) (GameCube Version)		09 46 5A C3 F8 CB 50 1B
+Legend of Zelda - Ocarina of Time Master Quest (U)			F0 34 00 1A AE 47 ED 06
+Legend of Zelda - Ocarina of Time Master Quest (E)			1D 41 36 F3 AF 63 EE A9
+Legend of Zelda - Ocarina of Time Master Quest (U) (Debug Version)	91 7D 18 F6 69 BC 54 53
+Legend of Zelda - Majora's Mask (U)					53 54 63 1C 03 A2 DE F0
+Legend of Zelda - Majora's Mask (E)					E9 79 55 C6 BC 33 8D 38
+Legend of Zelda - Majora's Mask (E) (v1.1)				0A 5D 8F 83 98 C5 37 1A
+Legend of Zelda - Majora's Mask (U) (Preview Demo)			BF 79 93 45 39 FF 7A 02
+Legend of Zelda - Majora's Mask (E) (v1.1) (Debug Version)		9F C3 85 E5 3E CC 05 C7
+Zelda no Densetsu - Toki no Ocarina (J)					EC 70 11 B7 76 16 D7 2B
+Zelda no Densetsu - Toki no Ocarina (J) (v1.1)				D4 3D A8 1F 02 1E 1E 19
+Zelda no Densetsu - Toki no Ocarina (J) (v1.2)				69 3B A2 AE B7 F1 4E 9F
+Zelda no Densetsu - Toki no Ocarina (J) (GameCube Version)		F6 11 F4 BA C5 84 13 5C
+Zelda no Densetsu - Toki no Ocarina Ura (J)				F4 3B 45 BA 2F 0E 9B 6F
+Zelda no Densetsu - Majora no Kamen (J)					EC 41 73 12 EB 31 DE 5F
+Zelda no Densetsu - Majora no Kamen (J) (v1.1)				69 AE 04 38 2C 63 F3 F3
+Zelda no Densetsu - Majora no Kamen (J) (GameCube Version)		84 73 D0 C1 23 12 06 66

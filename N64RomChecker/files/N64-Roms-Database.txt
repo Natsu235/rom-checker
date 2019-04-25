@@ -1,0 +1,290 @@
+ROM Name									ROM CIC Version											ROM CRC
+
+1080º Snowboarding							CIC-NUS-6103	SRAM	 
+Aero Gauge									CIC-NUS-6102	Controller Pak	 
+AeroFighters Assault						CIC-NUS-6102	EEPROM (4 Kbits)	 
+All-Star Baseball 2000						CIC-NUS-6102	Controller Pak	 
+All-Star Baseball 2001						CIC-NUS-6102	Controller Pak	 
+All-Star Baseball '99						CIC-NUS-6102	Controller Pak	 
+All-Star Tennis '99							CIC-NUS-6102	EEPROM (4 Kbits)	 
+Armorines: Project S.W.A.R.M.				CIC-NUS-6102	Controller Pak	Password
+Army Men: Air Combat						CIC-NUS-6102	Controller Pak	 
+Army Men: Sarge's Heroes					CIC-NUS-6102	Controller Pak	 
+Army Men: Sarge's Heroes 2					CIC-NUS-6102	Controller Pak	 
+Asteroids Hyper 64							CIC-NUS-6102	Controller Pak	 
+Automobili Lamborghini						CIC-NUS-6102	Controller Pak	 
+Banjo-Kazooie								CIC-NUS-6103	EEPROM (4 Kbits)	 
+Banjo-Tooie									CIC-NUS-6105	EEPROM (16 Kbits)	 
+Bassmaster 2000								CIC-NUS-6102	Controller Pak	 
+Batman Beyond: Return of the Joker			CIC-NUS-6102	None	 
+Battle Tanx									CIC-NUS-6102	Controller Pak	 
+Battle Tanx: Global Assault					CIC-NUS-6102	Controller Pak	 
+Battlezone: Rise of the Black Dogs			CIC-NUS-6102	Controller Pak	 
+Beast Wars Transmetals						CIC-NUS-6102	None	 
+Beetle Adventure Racing						CIC-NUS-6102	Controller Pak	 
+Big Mountain 2000							CIC-NUS-6102	EEPROM (4 Kbits)	Controller Pak
+Bio F.R.E.A.K.S.							CIC-NUS-6102	Controller Pak	 
+Blast Corps									CIC-NUS-6102	EEPROM (4 Kbits)	Controller Pak
+Blues Brothers 2000							CIC-NUS-6102	Controller Pak	 
+Body Harvest								CIC-NUS-6102	EEPROM (4 Kbits)	 
+Bomberman 64								CIC-NUS-6102	EEPROM (4 Kbits)	Controller Pak
+Bomberman 64: The Second Attack				CIC-NUS-6102	EEPROM (4 Kbits)	Controller Pak
+Bomberman Hero								CIC-NUS-6102	EEPROM (4 Kbits)	 
+Bottom of the 9th							CIC-NUS-6102	Controller Pak	 
+Brunswick Circuit Pro Bowling				CIC-NUS-6102	Controller Pak	 
+Buck Bumble									CIC-NUS-6102	Controller Pak	 
+Bug's Life, A								CIC-NUS-6102	Controller Pak	 
+Bust-A-Move 2: Arcade Edition				CIC-NUS-6102	Controller Pak	 
+Bust-A-Move '99								CIC-NUS-6102	Controller Pak	 
+California Speed							CIC-NUS-6102	Controller Pak	 
+Carmageddon 64								CIC-NUS-6102	Controller Pak	 
+Castlevania									CIC-NUS-6102	Controller Pak	 
+Castlevania: Legacy of Darkness				CIC-NUS-6102	Controller Pak	 
+Chameleon Twist								CIC-NUS-6102	EEPROM (4 Kbits)	 
+Chameleon Twist 2							CIC-NUS-6102	Controller Pak	 
+Charlie Blasts Territory					CIC-NUS-6102	Password	 
+Chopper Attack								CIC-NUS-6102	EEPROM (4 Kbits)	 
+Clay Fighter 63 1/3							CIC-NUS-6102	None	 
+Clay Fighter: Sculptor's Cut				CIC-NUS-6102	None	 
+Command & Conquer							CIC-NUS-6102	FlashRAM	 
+Cruis'n Exotica								CIC-NUS-6102	EEPROM (4 Kbits)	 
+Cruis'n USA									CIC-NUS-6102	EEPROM (4 Kbits)	Controller Pak
+Cruis'n World								CIC-NUS-6106	EEPROM (16 Kbits)	 
+CyberTiger									CIC-NUS-6102	Controller Pak	 
+Daikatana									CIC-NUS-6102	Controller Pak	 
+Dark Rift									CIC-NUS-6102	None	 
+Deadly Arts									CIC-NUS-6102	Controller Pak	 
+Destruction Derby 64						CIC-NUS-6102	Controller Pak	 
+Diddy Kong Racing							CIC-NUS-6103	EEPROM (4 Kbits)	Controller Pak
+Donald Duck: Goin' Quackers					CIC-NUS-6102	EEPROM (4 Kbits)	 
+Donkey Kong 64								CIC-NUS-6105	EEPROM (16 Kbits)	 
+Donkey Kong 64 Kiosk						CIC-NUS-6102	None	 
+Doom 64										CIC-NUS-6102	Controller Pak	Password
+Dual Heroes									CIC-NUS-6102	Controller Pak	 
+Duke Nukem 64								CIC-NUS-6102	Controller Pak	 
+Duke Nukem: Zero Hour						CIC-NUS-6102	Controller Pak	 
+Earthworm Jim 3D							CIC-NUS-6102	EEPROM (4 Kbits)	 
+ECW: Hardcore Revolution					CIC-NUS-6102	Controller Pak	 
+Elmo's Letter Adventure						CIC-NUS-6102	None	 
+Elmo's Number Journey						CIC-NUS-6102	None	 
+Excitebike 64								CIC-NUS-6103	EEPROM (16 Kbits)	Controller Pak
+Excitebike 64 Kiosk							CIC-NUS-6103	None	Controller Pak
+Extreme-G									CIC-NUS-6102	Controller Pak	Password
+Extreme-G 2									CIC-NUS-6102	Controller Pak	Password
+F1 Pole Position 64							CIC-NUS-6102	Controller Pak	 
+F-1 World Grand Prix						CIC-NUS-6102	EEPROM (4 Kbits)	 
+FIFA '99									CIC-NUS-6102	Controller Pak	 
+FIFA Soccer 64								CIC-NUS-6102	Controller Pak	 
+FIFA: Road to World Cup 98					CIC-NUS-6102	Controller Pak	 
+Fighter Destiny 2							CIC-NUS-6102	Controller Pak	 
+Fighters Destiny							CIC-NUS-6102	EEPROM (4 Kbits)	Controller Pak
+Fighting Force 64							CIC-NUS-6102	Controller Pak	 
+Flying Dragon								CIC-NUS-6102	Controller Pak	 
+Forsaken 64									CIC-NUS-6102	Controller Pak	 
+Fox Sports College Hoops '99				CIC-NUS-6102	Controller Pak	 
+F-Zero X									CIC-NUS-6106	SRAM	 
+Gauntlet Legends							CIC-NUS-6102	Controller Pak	 
+Gex 3: Deep Cover Gecko						CIC-NUS-6102	Controller Pak	 
+Gex 64: Enter the Gecko						CIC-NUS-6102	Controller Pak	Password
+Glover										CIC-NUS-6102	EEPROM (4 Kbits)	 
+Goemon's Great Adventure					CIC-NUS-6102	Controller Pak	 
+Golden Nugget 64							CIC-NUS-6102	Controller Pak	 
+GoldenEye 007								CIC-NUS-6102	EEPROM (4 Kbits)	 
+GT64 Championship Edition					CIC-NUS-6102	EEPROM (4 Kbits)	Controller Pak
+Harvest Moon 64								CIC-NUS-6102	SRAM	 
+Hercules: The Legendary Journeys			CIC-NUS-6102	Controller Pak	 
+Hexen										CIC-NUS-6102	Controller Pak	 
+Hey You, Pikachu!							CIC-NUS-6102	EEPROM (4 Kbits)	 
+Hot Wheels Turbo Racing						CIC-NUS-6102	Controller Pak	 
+Hybrid Heaven								CIC-NUS-6102	Controller Pak	 
+Hydro Thunder								CIC-NUS-6102	Controller Pak	 
+Iggy's Reckin' Balls						CIC-NUS-6102	Controller Pak	 
+In Fisherman Bass Hunter 64					CIC-NUS-6102	EEPROM (4 Kbits)	 
+Indiana Jones and the Infernal Machine		CIC-NUS-6102	EEPROM (4 Kbits)	 
+Indy Racing 2000							CIC-NUS-6102	EEPROM (4 Kbits)	 
+International Superstar Soccer 2000			CIC-NUS-6102	Controller Pak	 
+International Superstar Soccer 64			CIC-NUS-6102	Controller Pak	 
+International Superstar Soccer '98			CIC-NUS-6102	Controller Pak	 
+International Track & Field 2000			CIC-NUS-6102	Controller Pak	 
+Jeopardy!									CIC-NUS-6102	None	 
+Jeremy McGrath Supercross 2000				CIC-NUS-6102	Controller Pak	 
+Jet Force Gemini							CIC-NUS-6105	FlashRAM	 
+Jet Force Gemini Kiosk						CIC-NUS-6105	FlashRAM	 
+Ken Griffey Jr's Slugfest					CIC-NUS-6103	FlashRAM	 
+Killer Instinct Gold						CIC-NUS-6102	EEPROM (4 Kbits)	Controller Pak
+Kirby 64: The Crystal Shards				CIC-NUS-6103	EEPROM (4 Kbits)	 
+Knife Edge: Nose Gunner						CIC-NUS-6102	None	 
+Knockout Kings 2000							CIC-NUS-6102	Controller Pak	 
+Kobe Bryant in NBA Courtside				CIC-NUS-6103	EEPROM (16 Kbits)	Controller Pak
+Legend of Zelda: Majora's Mask, The			CIC-NUS-6105	FlashRAM	 
+Legend of Zelda: Ocarina of Time, The		CIC-NUS-6105	SRAM	 
+LEGO Racers									CIC-NUS-6102	Controller Pak	 
+Lode Runner 3D								CIC-NUS-6102	EEPROM (4 Kbits)	 
+Looney Tunes: Duck Dodgers					CIC-NUS-6102	EEPROM (4 Kbits)	 
+Mace: The Dark Age							CIC-NUS-6102	None	 
+Madden 2000									CIC-NUS-6102	Controller Pak	 
+Madden 64									CIC-NUS-6102	Controller Pak	 
+Madden '99									CIC-NUS-6102	Controller Pak	 
+Madden NFL 2001								CIC-NUS-6102	Controller Pak	 
+Magical Tetris Challenge					CIC-NUS-6102	None	 
+Major League Baseball Featuring Ken Griffey Jr.	CIC-NUS-6103	SRAM	 
+Mario Golf	CIC-NUS-6102	SRAM	 
+Mario Kart 64	CIC-NUS-6102	EEPROM (4 Kbits)	Controller Pak
+Mario Party	CIC-NUS-6102	EEPROM (4 Kbits)	 
+Mario Party 2	CIC-NUS-6102	EEPROM (4 Kbits)	 
+Mario Tennis	CIC-NUS-6102	EEPROM (16 Kbits)	 
+Megaman 64	CIC-NUS-6102	FlashRAM	 
+Mia Hamm Soccer 64	CIC-NUS-6102	Controller Pak	 
+Mickey's Speedway USA	CIC-NUS-6105	EEPROM (4 Kbits)	 
+Micro Machines 64 Turbo	CIC-NUS-6102	Controller Pak	 
+Midway's Greatest Arcade Hits Volume 1	CIC-NUS-6102	Controller Pak	 
+Mike Piazza's Strike Zone	CIC-NUS-6102	Controller Pak	 
+Milo's Astro Lanes	CIC-NUS-6102	Controller Pak	 
+Mischief Makers	CIC-NUS-6102	EEPROM (4 Kbits)	 
+Mission: Impossible	CIC-NUS-6102	EEPROM (4 Kbits)	 
+Monaco Grand Prix	CIC-NUS-6102	Controller Pak	 
+Monopoly	CIC-NUS-6102	EEPROM (4 Kbits)	 
+Monster Truck Madness 64	CIC-NUS-6102	Password	 
+Mortal Kombat 4	CIC-NUS-6102	Controller Pak	 
+Mortal Kombat Mythologies: Sub-Zero	CIC-NUS-6102	Controller Pak	Password
+Mortal Kombat Trilogy	CIC-NUS-6102	None	 
+Ms. Pac-Man Maze Madness	CIC-NUS-6102	Controller Pak	 
+Multi-Racing Championship	CIC-NUS-6102	EEPROM (4 Kbits)	Controller Pak
+Mystical Ninja Starring Goemon	CIC-NUS-6102	Controller Pak	 
+Nagano Winter Olympics '98	CIC-NUS-6102	Controller Pak	 
+Namco Museum 64	CIC-NUS-6102	Controller Pak	 
+Nascar 2000	CIC-NUS-6102	Controller Pak	 
+Nascar '99	CIC-NUS-6102	Controller Pak	 
+NBA Courtside 2 Featuring Kobe Bryant	CIC-NUS-6102	FlashRAM	 
+NBA Hang Time	CIC-NUS-6102	Controller Pak	 
+NBA In the Zone 2000	CIC-NUS-6102	Controller Pak	 
+NBA In the Zone '98	CIC-NUS-6102	Controller Pak	 
+NBA In the Zone '99	CIC-NUS-6102	Controller Pak	 
+NBA Jam 2000	CIC-NUS-6102	Controllre Pak	 
+NBA Jam '99	CIC-NUS-6102	Controller Pak	 
+NBA Live 2000	CIC-NUS-6102	Controller Pak	 
+NBA Live '99	CIC-NUS-6102	Controller Pak	 
+NBA Show Time: NBA on NBC	CIC-NUS-6102	Controller Pak	 
+New Tetris, The	CIC-NUS-6102	SRAM	Controller Pak
+NFL Blitz	CIC-NUS-6102	Controller Pak	 
+NFL Blitz 2000	CIC-NUS-6102	Controller Pak	 
+NFL Blitz 2001	CIC-NUS-6102	Controller Pak	 
+NFL Quarterback Club 2000	CIC-NUS-6102	Controller Pak	 
+NFL Quarterback Club 2001	CIC-NUS-6102	Controller Pak	 
+NFL Quarterback Club '98	CIC-NUS-6102	Controller Pak	 
+NFL Quarterback Club '99	CIC-NUS-6102	Controller Pak	 
+NHL '99	CIC-NUS-6102	Controller Pak	 
+NHL Blades of Steel '99	CIC-NUS-6102	Controller Pak	 
+NHL Breakaway Hockey '98	CIC-NUS-6102	Controller Pak	 
+NHL Breakaway Hockey '99	CIC-NUS-6102	Controller Pak	 
+Nightmare Creatures	CIC-NUS-6102	Controller Pak	Password
+Nuclear Strike 64	CIC-NUS-6102	Controller Pak	 
+Off Road Challenge	CIC-NUS-6102	Controller Pak	 
+Ogre Battle 64: Person of Lordly Caliber	CIC-NUS-6102	SRAM	 
+Olympic Hockey '98	CIC-NUS-6102	Controller Pak	 
+Paperboy	CIC-NUS-6102	Controller Pak	 
+Penny Racers	CIC-NUS-6102	EEPROM (4 Kbits)	Controller Pak
+Perfect Dark	CIC-NUS-6105	EEPROM (16 Kbits)	Controller Pak
+PGA European Tour	CIC-NUS-6102	EEPROM (4 Kbits)	 
+Pilotwings 64	CIC-NUS-6102	EEPROM (4 Kbits)	 
+Pokémon Puzzle League	CIC-NUS-6102	FlashRAM	 
+Pokémon Snap	CIC-NUS-6103	FlashRAM	 
+Pokémon Stadium	CIC-NUS-6103	FlashRAM	 
+Polaris Snocross	CIC-NUS-6102	Controller Pak	 
+Power Rangers: Lightspeed Rescue	CIC-NUS-6102	Controller Pak	 
+Quake	CIC-NUS-6102	Controller Pak	Password
+Quake II	CIC-NUS-6102	Controller Pak	 
+Quest 64	CIC-NUS-6102	Controller Pak	 
+Rainbow Six	CIC-NUS-6102	Controller Pak	 
+Rally Challenge 2000	CIC-NUS-6102	Controller Pak	 
+Rampage 2: Universal Tour	CIC-NUS-6102	Controller Pak	Password
+Rampage: World Tour	CIC-NUS-6102	Controller Pak	 
+Rat Attack	CIC-NUS-6102	Controller Pak	 
+Rayman 2: The Great Escape	CIC-NUS-6102	Controller Pak	 
+Ready 2 Rumble Boxing	CIC-NUS-6102	Controller Pak	 
+Ready 2 Rumble Boxing Round 2	CIC-NUS-6102	Controller Pak	 
+Resident Evil 2	CIC-NUS-6102	SRAM	 
+Re-Volt	CIC-NUS-6102	Controller Pak	 
+Ridge Racer 64	CIC-NUS-6102	EEPROM (16 Kbits)	 
+Road Rash 64	CIC-NUS-6102	Controller Pak	 
+Roadsters	CIC-NUS-6102	Controller Pak	 
+Robotron 64	CIC-NUS-6102	Controller Pak	 
+Rocket: Robot on Wheels	CIC-NUS-6102	EEPROM (4 Kbits)	 
+Rugrats in Paris: The Movie	CIC-NUS-6102	Controller Pak	 
+Rugrats: Scavenger Hunt	CIC-NUS-6102	None	 
+Rush 2: Extreme Racing USA	CIC-NUS-6102	Controller Pak	Password
+S.C.A.R.S.	CIC-NUS-6102	Controller Pak	Password
+San Francisco Rush 2049	CIC-NUS-6102	Controller Pak	 
+San Francisco Rush: Extreme Racing	CIC-NUS-6102	Controller Pak	Password
+Scooby-Doo: Classic Creep Capers	CIC-NUS-6102	Controller Pak	 
+Shadow Man	CIC-NUS-6102	Controller Pak	 
+Shadowgate 64: Trials of the Four Towers	CIC-NUS-6102	Controller Pak	 
+Snowboard Kids	CIC-NUS-6102	Controller Pak	 
+Snowboard Kids 2	CIC-NUS-6102	EEPROM (4 Kbits)	 
+South Park	CIC-NUS-6102	Controller Pak	 
+South Park Rally	CIC-NUS-6102	Controller Pak	 
+South Park: Chef's Luv Shack	CIC-NUS-6102	None	 
+Space Invaders	CIC-NUS-6102	Controller Pak	 
+Space Station Silicon Valley	CIC-NUS-6102	EEPROM (4 Kbits)	 
+Spider-Man	CIC-NUS-6102	Controller Pak	 
+Star Fox 64	CIC-NUS-6101	EEPROM (4 Kbits)	 
+Star Soldier: Vanishing Earth	CIC-NUS-6102	EEPROM (4 Kbits)	 
+Star Wars Episode 1: Battle for Naboo	CIC-NUS-6102	EEPROM (4 Kbits)	 
+Star Wars Episode 1: Racer	CIC-NUS-6102	EEPROM (16 Kbits)	 
+Star Wars: Rogue Squadron	CIC-NUS-6102	EEPROM (4 Kbits)	Password
+Star Wars: Shadows of the Empire	CIC-NUS-6102	EEPROM (4 Kbits)	 
+Starcraft 64	CIC-NUS-6102	FlashRAM	 
+Starshot Space Circus	CIC-NUS-6102	EEPROM (4 Kbits)	 
+Stunt Racer 64	CIC-NUS-6102	Controller Pak	 
+Super Bowling	CIC-NUS-6102	Controller Pak	 
+Super Mario 64	CIC-NUS-6102	EEPROM (4 Kbits)	 
+Super Smash Bros.	CIC-NUS-6103	SRAM	 
+Supercross 2000	CIC-NUS-6102	Controller Pak	 
+Superman	CIC-NUS-6102	Controller Pak	 
+Tarzan	CIC-NUS-6102	Controller Pak	 
+Tetrisphere	CIC-NUS-6102	EEPROM (4 Kbits)	 
+The World Is Not Enough	CIC-NUS-6102	Controller Pak	 
+Tigger's Honey Hunt	CIC-NUS-6102	FlashRAM	 
+Tom & Jerry in Fists of Furry	CIC-NUS-6102	EEPROM (4 Kbits)	 
+Tonic Trouble	CIC-NUS-6102	Controller Pak	 
+Tony Hawk's Pro Skater	CIC-NUS-6102	Controller Pak	 
+Top Gear Hyper Bike	CIC-NUS-6102	Controller Pak	 
+Top Gear Overdrive	CIC-NUS-6102	EEPROM (4 Kbits)	 
+Top Gear Rally	CIC-NUS-6102	Controller Pak	 
+Top Gear Rally 2	CIC-NUS-6102	Controller Pak	 
+Toy Story 2	CIC-NUS-6102	Controller Pak	 
+Triple Play 2000	CIC-NUS-6102	Controller Pak	 
+Turok 2: Seeds of Evil	CIC-NUS-6102	Controller Pak	 
+Turok 2: Seeds of Evil Kiosk	CIC-NUS-6102	None	 
+Turok 3: Shadow of Oblivion	CIC-NUS-6102	Controller Pak	 
+Turok: Dinosaur Hunter	CIC-NUS-6102	Controller Pak	 
+Turok: Rage Wars	CIC-NUS-6102	Controller Pak	 
+Twisted Edge Extreme Snowboarding	CIC-NUS-6102	Controller Pak	 
+Vigilante 8	CIC-NUS-6102	Controller Pak	Password
+Vigilante 8: 2nd Offense	CIC-NUS-6102	Controller Pak	 
+Virtual Chess 64	CIC-NUS-6102	Controller Pak	 
+Virtual Pool 64	CIC-NUS-6102	Controller Pak	 
+V-Rally Edition '99	CIC-NUS-6102	EEPROM (4 Kbits)	 
+Waialae Country Club: True Golf Classics	CIC-NUS-6102	EEPROM (4 Kbits)	 
+War Gods	CIC-NUS-6102	None	 
+Wave Race 64	CIC-NUS-6102	EEPROM (4 Kbits)	Controller Pak
+Wayne Gretzky's 3D Hockey	CIC-NUS-6102	Controller Pak	 
+Wayne Gretzky's 3D Hockey '98	CIC-NUS-6102	Controller Pak	 
+WCW Backstage Assault	CIC-NUS-6102	Controller Pak	 
+WCW Mayhem	CIC-NUS-6102	Controller Pak	 
+WCW Nitro	CIC-NUS-6102	Controller Pak	 
+WCW vs nWo: World Tour	CIC-NUS-6102	Controller Pak	 
+WCW/NWO Revenge	CIC-NUS-6102	SRAM	 
+Wetrix	CIC-NUS-6102	Controller Pak	 
+Wheel of Fortune	CIC-NUS-6102	None	 
+WinBack: Covert Operations	CIC-NUS-6102	Controller Pak	 
+Wipeout 64	CIC-NUS-6102	Controller Pak	 
+World Cup '98	CIC-NUS-6102	Controller Pak	 
+World Driver Championship	CIC-NUS-6102	Controller Pak	 
+Worms Armageddon	CIC-NUS-6102	EEPROM (4 Kbits)	 
+Wrestlemania 2000	CIC-NUS-6102	SRAM	Controller Pak
+WWF: Attitude	CIC-NUS-6102	Controller Pak	 
+WWF: No Mercy	CIC-NUS-6102	FlashRAM	Controller Pak
+WWF: Warzone	CIC-NUS-6102	Controller Pak	 
+Xena: Talisman of Fate	CIC-NUS-6102	Controller Pak	 
+Yoshi's Story	CIC-NUS-6106	EEPROM (16 Kbits)	 
