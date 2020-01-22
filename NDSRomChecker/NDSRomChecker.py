@@ -1,6 +1,6 @@
 #--------------------------------------------------#
 # Project Name: NDS Rom Checker                    #
-# Filename:     N64RomChecker.py                   #
+# Filename:     NDSRomChecker.py                   #
 # Author:       Dorian Pilorge                     #
 #--------------------------------------------------#
 

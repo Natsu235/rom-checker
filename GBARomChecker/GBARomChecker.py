@@ -1,6 +1,6 @@
 #--------------------------------------------------#
 # Project Name: GBA Rom Checker                    #
-# Filename:     N64RomChecker.py                   #
+# Filename:     GBARomChecker.py                   #
 # Author:       Dorian Pilorge                     #
 #--------------------------------------------------#
 
