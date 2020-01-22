@@ -1,8 +1,8 @@
-#-----------------------------------------------------------#
-# Project Name: N64 Rom Checker                             #
-# Filename:     N64RomChecker.py                                     #
-# Author:       Dorian Pilorge                              #
-#-----------------------------------------------------------#
+#--------------------------------------------------#
+# Project Name: N64 Rom Checker                    #
+# Filename:     N64RomChecker.py                   #
+# Author:       Dorian Pilorge                     #
+#--------------------------------------------------#
 
 
 # Libraries #
@@ -35,7 +35,7 @@ def openFile(LoadedROM):
             ROMCartID = checkROMCartID(ROM, ROMExtension)
             ROMRegion = checkROMRegion(ROM, ROMExtension)
             ROMVersion = checkROMVersion(ROM, ROMExtension)
-            ROMManufacturer = checkROMManufacturer(ROM, ROMExtension)
+            ROMMedia = checkROMMedia(ROM, ROMExtension)
             ROMCRC = checkROMCRC(LoadedROM, ROMExtension)
             ROMCICVersion = checkROMCICVersion(LoadedROM, ROMExtension)
             ROMCRCStatus = checkROMCRCStatus(LoadedROM)
@@ -46,7 +46,7 @@ def openFile(LoadedROM):
             ROMCartID = ''
             ROMRegion = ''
             ROMVersion = ''
-            ROMManufacturer = ''
+            ROMMedia = ''
             ROMCRC = ''
             ROMCICVersion = ''
             ROMCRCStatus = ''
@@ -61,12 +61,12 @@ def openFile(LoadedROM):
         TweakFrame.pack(fill='x', expand='no')
 
         if ROMCartID[:1] == 'C' and ROMName == 'THE LEGEND OF ZELDA':
-            ManufacturerFix = Button(TweakFrame, text='Fix Manufacturer', command=lambda: fixManufacturer(LoadedROM, ROMExtension, ROMName))
-            ManufacturerFix.grid(row=0, column=0, padx=5, pady=5, sticky='nw')
+            MediaFix = Button(TweakFrame, text='Fix Media', command=lambda: fixMedia(LoadedROM, ROMExtension, ROMName))
+            MediaFix.grid(row=0, column=0, padx=5, pady=5, sticky='nw')
 
         if ROMCRC == '9F C3 85 E5 3E CC 05 C7' and ROMExtension == '.z64' and hex(ROM[33923632]) != '0xff':
-            RemoveCredits = Button(TweakFrame, text='Remove Cen Credits', command=lambda: removeCredits(LoadedROM, ROMName))
-            RemoveCredits.grid(row=0, column=1, padx=5, pady=5, sticky='nw')
+            RemoveCenCredits = Button(TweakFrame, text='Remove Cen Credits', command=lambda: removeCredits(LoadedROM, ROMName))
+            RemoveCenCredits.grid(row=0, column=1, padx=5, pady=5, sticky='nw')
 
     # Fill "ROM Informations" with loaded ROM
     Filename['text'] = ROMFilename
@@ -76,7 +76,7 @@ def openFile(LoadedROM):
     CartID['text'] = ROMCartID
     Region['text'] = ROMRegion
     Version['text'] = ROMVersion
-    Manufacturer['text'] = ROMManufacturer
+    Media['text'] = ROMMedia
     CRC['text'] = ROMCRC
     CICVersion['text'] = ROMCICVersion
     CRCStatus['text'] = ROMCRCStatus
@@ -90,7 +90,7 @@ def openFile(LoadedROM):
     print('ROM Cartridge ID: ', ROMCartID)
     print('ROM Region: ', ROMRegion)
     print('ROM Version: ', ROMVersion)
-    print('ROM Manufacturer: ', ROMManufacturer)
+    print('ROM Media: ', ROMMedia)
     print('ROM CRC: ', ROMCRC)
     print('ROM CIC Version: ', ROMCICVersion)
     print('ROM CRC Status: ', ROMCRCStatus)
@@ -185,7 +185,7 @@ def checkROMRegion(ROM, ROMExtension):
     return ROMRegion
 
 
-def checkROMManufacturer(ROM, ROMExtension):
+def checkROMMedia(ROM, ROMExtension):
     if ROMExtension == '.n64':
         x = 56
     elif ROMExtension == '.v64':
@@ -194,13 +194,19 @@ def checkROMManufacturer(ROM, ROMExtension):
         x = 59
 
     if chr(ROM[x]) == 'C':
-        ROMManufacturer = 'Nintendo (Ocarina of Time)'
+        ROMMedia = 'N64 Cartridge Expandable'
+    elif chr(ROM[x]) == 'D':
+        ROMMedia = '64DD Disk'
+    elif chr(ROM[x]) == 'E':
+        ROMMedia = '64DD Cartridge Expansion'
     elif chr(ROM[x]) == 'N':
-        ROMManufacturer = 'Nintendo'
+        ROMMedia = 'N64 Cartridge'
+    elif chr(ROM[x]) == 'Z':
+        ROMMedia = 'Aleck64 Cartridge'
     else:
-        ROMManufacturer = 'Unknown'
+        ROMMedia = 'Unknown'
 
-    return ROMManufacturer
+    return ROMMedia
 
 
 def checkROMVersion(ROM, ROMExtension):
@@ -323,7 +329,7 @@ def openTools(tool):
         MainWindow.destroy()
     except:
         messagebox.showerror('Error', '\nCan\'t find "' + tool + '" folder!')
-        print('\n[MessageBox]Can\'t find "' + tool + '" folder!')
+        print('\n[MessageBox] Can\'t find "' + tool + '" folder!')
 
 
 def showOffsets(flag):
@@ -332,7 +338,7 @@ def showOffsets(flag):
         NameOffset['text'] = ' 0x20 '
         CartIDOffset['text'] = ' 0x3B '
         RegionOffset['text'] = ' 0x3E '
-        ManufacturerOffset['text'] = ' 0x3B '
+        MediaOffset['text'] = ' 0x3B '
         VersionOffset['text'] = ' 0x3F '
         CRCOffset['text'] = ' 0x10 '
         CICVersionOffset['text'] = ' 0x40 '
@@ -341,7 +347,7 @@ def showOffsets(flag):
         NameLength['text'] = ' 0x14 '
         CartIDLength['text'] = ' 0x04 '
         RegionLength['text'] = ' 0x01 '
-        ManufacturerLength['text'] = ' 0x01 '
+        MediaLength['text'] = ' 0x01 '
         VersionLength['text'] = ' 0x01 '
         CRCLength['text'] = ' 0x08 '
         CICVersionLength['text'] = ' 0xFC0 '
@@ -350,7 +356,7 @@ def showOffsets(flag):
         NameOffset['text'] = ''
         CartIDOffset['text'] = ''
         RegionOffset['text'] = ''
-        ManufacturerOffset['text'] = ''
+        MediaOffset['text'] = ''
         VersionOffset['text'] = ''
         CRCOffset['text'] = ''
         CICVersionOffset['text'] = ''
@@ -359,13 +365,13 @@ def showOffsets(flag):
         NameLength['text'] = ''
         CartIDLength['text'] = ''
         RegionLength['text'] = ''
-        ManufacturerLength['text'] = ''
+        MediaLength['text'] = ''
         VersionLength['text'] = ''
         CRCLength['text'] = ''
         CICVersionLength['text'] = ''
 
 
-def fixManufacturer(LoadedROM, ROMExtension, ROMName):
+def fixMedia(LoadedROM, ROMExtension, ROMName):
     try:
         with open(LoadedROM, 'r+b') as f:
             if ROMExtension == '.n64':
@@ -379,11 +385,11 @@ def fixManufacturer(LoadedROM, ROMExtension, ROMName):
             f.write('N'.encode())
             f.seek(0)
             openFile(LoadedROM)
-            messagebox.showinfo('Success', 'ROM Tweak Manufacturer Fix successfully applied to ' + ROMName + '!')
-            print('\n[MessageBox]ROM Tweak Manufacturer Fix successfully applied to ' + ROMName + '!')
+            messagebox.showinfo('Success', 'ROM Tweak \'Media Fix\' successfully applied to ' + ROMName + '!')
+            print('\n[MessageBox] ROM Tweak \'Media Fix\' successfully applied to ' + ROMName + '!')
     except:
-        messagebox.showerror('Error', 'An error occurred while applying ROM Tweak Manufacturer Fix to ' + ROMName + '!')
-        print('\n[MessageBox]An error occurred while applying ROM Tweak Manufacturer Fix to ' + ROMName + '!')
+        messagebox.showerror('Error', 'An error occurred while applying ROM Tweak \'Media Fix\' to ' + ROMName + '!')
+        print('\n[MessageBox] An error occurred while applying ROM Tweak \'Media Fix\' to ' + ROMName + '!')
 
 
 def removeCredits(LoadedROM, ROMName):
@@ -396,11 +402,11 @@ def removeCredits(LoadedROM, ROMName):
                 x = x + 1
                 f.seek(x)
             openFile(LoadedROM)
-            messagebox.showinfo('Success', 'ROM Tweak Remove Cen Credits successfully applied to ' + ROMName + '!')
-            print('\n[MessageBox]ROM Tweak Remove Cen Credits successfully applied to ' + ROMName + '!')
+            messagebox.showinfo('Success', 'ROM Tweak \'Remove Cen Credits\' successfully applied to ' + ROMName + '!')
+            print('\n[MessageBox] ROM Tweak \'Remove Cen Credits\' successfully applied to ' + ROMName + '!')
     except:
-        messagebox.showerror('Error', 'An error occurred while applying ROM Tweak Remove Cen Credits to ' + ROMName + '!')
-        print('\n[MessageBox]An error occurred while applying ROM Tweak Remove Cen Credits to ' + ROMName + '!')
+        messagebox.showerror('Error', 'An error occurred while applying ROM Tweak \'Remove Cen Credits\' to ' + ROMName + '!')
+        print('\n[MessageBox] An error occurred while applying ROM Tweak \'Remove Cen Credits\' to ' + ROMName + '!')
 
 
 def about():
@@ -416,7 +422,7 @@ def about():
     AboutImage.pack(padx=5, pady=5)
     AboutImage.image = Image
 
-    AboutText = Label(AboutWindow, text='N64 Rom Checker\nVanilla Edition (v1.0)\nMade by Natsu235')
+    AboutText = Label(AboutWindow, text='N64 Rom Checker\nVersion 1.0\nMade by Natsu235')
     AboutText.pack(padx=5, pady=5)
 
 
@@ -428,7 +434,7 @@ def loading(flag):
         LoadingWindow = Toplevel(MainWindow)
         LoadingWindow.title('Loading ROM')
         LoadingWindow.geometry('280x120')
-        LoadingWindow.iconbitmap('./icons/nds.ico')
+        LoadingWindow.iconbitmap('./icons/n64.ico')
         LoadingWindow.resizable(width=False, height=False)
 
         LoadingText = Label(LoadingWindow, text='Loading N64 ROM... Please wait.')
@@ -444,7 +450,7 @@ def loading(flag):
 
 # Main Window #
 MainWindow = Tk()
-MainWindow.title('N64 Rom Checker (Vanilla Edition 1.0)')
+MainWindow.title('N64 Rom Checker v1.0')
 MainWindow.geometry('700x640')
 MainWindow.iconbitmap('./icons/n64.ico')
 MainWindow.resizable(width=False, height=False)
@@ -461,7 +467,7 @@ ROMSizeLabel = Label(InfoFrame, text='Rom Size: ')
 ROMNameLabel = Label(InfoFrame, text='Rom Name: ')
 ROMCartIDLabel = Label(InfoFrame, text='Rom Cartridge ID: ')
 ROMRegionLabel = Label(InfoFrame, text='Rom Region: ')
-ROMManufacturerLabel = Label(InfoFrame, text='Rom Manufacturer: ')
+ROMMediaLabel = Label(InfoFrame, text='Rom Media: ')
 ROMVersionLabel = Label(InfoFrame, text='Rom Version: ')
 ROMCRCLabel = Label(InfoFrame, text='Rom CRC: ')
 ROMCICVersionLabel = Label(InfoFrame, text='Rom CIC Version: ')
@@ -472,7 +478,7 @@ ROMSizeLabel.grid(row=3, column=0, sticky='nw')
 ROMNameLabel.grid(row=4, column=0, sticky='nw')
 ROMCartIDLabel.grid(row=5, column=0, sticky='nw')
 ROMRegionLabel.grid(row=6, column=0, sticky='nw')
-ROMManufacturerLabel.grid(row=7, column=0, sticky='nw')
+ROMMediaLabel.grid(row=7, column=0, sticky='nw')
 ROMVersionLabel.grid(row=8, column=0, sticky='nw')
 ROMCRCLabel.grid(row=9, column=0, sticky='nw')
 ROMCICVersionLabel.grid(row=10, column=0, sticky='nw')
@@ -485,7 +491,7 @@ SizeOffset = Label(InfoFrame, text='', fg='cyan2')
 NameOffset = Label(InfoFrame, text='', fg='cyan2')
 CartIDOffset = Label(InfoFrame, text='', fg='cyan2')
 RegionOffset = Label(InfoFrame, text='', fg='cyan2')
-ManufacturerOffset = Label(InfoFrame, text='', fg='cyan2')
+MediaOffset = Label(InfoFrame, text='', fg='cyan2')
 VersionOffset = Label(InfoFrame, text='', fg='cyan2')
 CRCOffset = Label(InfoFrame, text='', fg='cyan2')
 CICVersionOffset = Label(InfoFrame, text='', fg='cyan2')
@@ -497,7 +503,7 @@ SizeOffset.grid(row=3, column=1, sticky='nw')
 NameOffset.grid(row=4, column=1, sticky='nw')
 CartIDOffset.grid(row=5, column=1, sticky='nw')
 RegionOffset.grid(row=6, column=1, sticky='nw')
-ManufacturerOffset.grid(row=7, column=1, sticky='nw')
+MediaOffset.grid(row=7, column=1, sticky='nw')
 VersionOffset.grid(row=8, column=1, sticky='nw')
 CRCOffset.grid(row=9, column=1, sticky='nw')
 CICVersionOffset.grid(row=10, column=1, sticky='nw')
@@ -510,7 +516,7 @@ SizeLength = Label(InfoFrame, text='', fg='magenta2')
 NameLength = Label(InfoFrame, text='', fg='magenta2')
 CartIDLength = Label(InfoFrame, text='', fg='magenta2')
 RegionLength = Label(InfoFrame, text='', fg='magenta2')
-ManufacturerLength = Label(InfoFrame, text='', fg='magenta2')
+MediaLength = Label(InfoFrame, text='', fg='magenta2')
 VersionLength = Label(InfoFrame, text='', fg='magenta2')
 CRCLength = Label(InfoFrame, text='', fg='magenta2')
 CICVersionLength = Label(InfoFrame, text='', fg='magenta2')
@@ -522,7 +528,7 @@ SizeLength.grid(row=3, column=2, sticky='nw')
 NameLength.grid(row=4, column=2, sticky='nw')
 CartIDLength.grid(row=5, column=2, sticky='nw')
 RegionLength.grid(row=6, column=2, sticky='nw')
-ManufacturerLength.grid(row=7, column=2, sticky='nw')
+MediaLength.grid(row=7, column=2, sticky='nw')
 VersionLength.grid(row=8, column=2, sticky='nw')
 CRCLength.grid(row=9, column=2, sticky='nw')
 CICVersionLength.grid(row=10, column=2, sticky='nw')
@@ -534,7 +540,7 @@ Size = Label(InfoFrame, text='', fg='gray15')
 Name = Label(InfoFrame, text='', fg='gray15')
 CartID = Label(InfoFrame, text='', fg='gray15')
 Region = Label(InfoFrame, text='', fg='gray15')
-Manufacturer = Label(InfoFrame, text='', fg='gray15')
+Media = Label(InfoFrame, text='', fg='gray15')
 Version = Label(InfoFrame, text='', fg='gray15')
 CRC = Label(InfoFrame, text='', fg='gray15')
 CICVersion = Label(InfoFrame, text='', fg='gray15')
@@ -545,7 +551,7 @@ Size.grid(row=3, column=3, sticky='nw')
 Name.grid(row=4, column=3, sticky='nw')
 CartID.grid(row=5, column=3, sticky='nw')
 Region.grid(row=6, column=3, sticky='nw')
-Manufacturer.grid(row=7, column=3, sticky='nw')
+Media.grid(row=7, column=3, sticky='nw')
 Version.grid(row=8, column=3, sticky='nw')
 CRC.grid(row=9, column=3, sticky='nw')
 CICVersion.grid(row=10, column=3, sticky='nw')

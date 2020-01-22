@@ -1,8 +1,8 @@
-#-----------------------------------------------------------#
-# Project Name: NDS Rom Checker                             #
-# Filename:     NDSRomChecker.py                                     #
-# Author:       Dorian Pilorge                              #
-#-----------------------------------------------------------#
+#--------------------------------------------------#
+# Project Name: NDS Rom Checker                    #
+# Filename:     N64RomChecker.py                   #
+# Author:       Dorian Pilorge                     #
+#--------------------------------------------------#
 
 
 # Libraries #
@@ -217,7 +217,7 @@ def openTools(tool):
         MainWindow.destroy()
     except:
         messagebox.showerror('Error', '\nCan\'t find "' + tool + '" folder!')
-        print('\n[MessageBox]Can\'t find "' + tool + '" folder!')
+        print('\n[MessageBox] Can\'t find "' + tool + '" folder!')
 
 
 def showOffsets(flag):
@@ -268,7 +268,7 @@ def about():
     AboutImage.pack(padx=5, pady=5)
     AboutImage.image = Image
 
-    AboutText = Label(AboutWindow, text='NDS Rom Checker\nVanilla Edition (v1.0)\nMade by Natsu235')
+    AboutText = Label(AboutWindow, text='NDS Rom Checker\nVersion 1.0\nMade by Natsu235')
     AboutText.pack(padx=5, pady=5)
 
 
@@ -296,7 +296,7 @@ def loading(flag):
 
 # Main Window #
 MainWindow = Tk()
-MainWindow.title('NDS Rom Checker (Vanilla Edition 1.0)')
+MainWindow.title('NDS Rom Checker v1.0')
 MainWindow.geometry('700x640')
 MainWindow.iconbitmap('./icons/nds.ico')
 MainWindow.resizable(width=False, height=False)

@@ -1,6 +1,5 @@
 import os
 import sys
-import tkinter
 from cx_Freeze import setup, Executable
 
 base = None
@@ -19,7 +18,7 @@ os.environ['TK_LIBRARY'] = os.path.join(PYTHON_INSTALL_DIR, 'tcl', 'tk8.6')
 
 options = {
     'packages': ['os', 'sys', 're', 'tkinter'],
-    'include_files': ['files/', 'icons/', 'images/', 'tools/', os.path.join(PYTHON_INSTALL_DIR, 'DLLs', 'tcl86t.dll'), os.path.join(PYTHON_INSTALL_DIR, 'DLLs', 'tk86t.dll')],
+    'include_files': ['icons/', 'images/', os.path.join(PYTHON_INSTALL_DIR, 'DLLs', 'tcl86t.dll'), os.path.join(PYTHON_INSTALL_DIR, 'DLLs', 'tk86t.dll')],
     'excludes': []
 }
 
