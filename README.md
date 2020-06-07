@@ -1,7 +1,7 @@
 # ROM Checker
 A Python tool to display basic informations about Nintendo ROMs.
 
-# How to build
+## How to build
 To build this project, you'll need:
 * [Python 3.6](https://www.python.org/downloads/)
 * cx_Freeze for Python
